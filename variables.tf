@@ -1,35 +1,35 @@
-var "vpc_name" {
+variable "vpc_name" {
   type = string
 }
 
-var "public_sn_name" {
+variable "public_sn_name" {
   type = string
 }
 
-var "vpc_cidr" {
+variable "vpc_cidr" {
   type = string
 }
 
-var "public_sn_cidr" {
+variable "public_sn_cidr" {
   type = string
 }
 
-var "private_sn_name" {
+variable "private_sn_name" {
   type = string
 }
 
-var "private_sn_cidr" {
+variable "private_sn_cidr" {
   type = string
 }
 
-var "igw_name" {
+variable "igw_name" {
   type = string
 }
 
-var "public_rt_name" {
+variable "public_rt_name" {
   type = string
 }
 
-var "private_rt_name" {
+variable "private_rt_name" {
   type = string
 }
