@@ -76,9 +76,10 @@ resource "aws_route_table" "public_rt" {
 
   route {
     cidr_block     = var.public_sn_cidr
-    nat_gateway_id = aws_internet_gateway.eureka_igw.id
+    gateway_id = aws_internet_gateway.eureka_igw.id
   }
   tags = {
     Name = var.public_rt_name
   }
 }
+
