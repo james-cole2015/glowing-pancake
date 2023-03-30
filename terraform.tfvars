@@ -14,3 +14,5 @@ nat_gw_name = "Eurka NAT GW"
 
 private_rt_name = "Private Route Table"
 public_rt_name  = "Public Route Table"
+
+instance_ami = "ami-0c41531b8d18cc72b"

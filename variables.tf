@@ -27,7 +27,7 @@ variable "igw_name" {
 }
 
 variable "nat_gw_name" {
-    type = string
+  type = string
 }
 
 variable "public_rt_name" {
@@ -35,5 +35,9 @@ variable "public_rt_name" {
 }
 
 variable "private_rt_name" {
+  type = string
+}
+
+variable "instance_ami" {
   type = string
 }
